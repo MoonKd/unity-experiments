@@ -1,0 +1,62 @@
+# Unity generated — 앞의 슬래시를 붙이지 않는다.
+# 슬래시를 붙이면 루트에서만 무시되어, 중첩된 Library/ 가 그대로 커밋된다.
+# (원본 레포가 정확히 그 이유로 20,000개가 넘는 캐시 파일을 안고 있었다.)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset meta 는 대응 에셋이 무시될 때만 함께 무시한다.
+!/[Aa]ssets/**/*.meta
+
+# Rider / VS / VSCode
+[Aa]ssets/Plugins/Editor/JetBrains*
+.vs/
+.vscode/
+.idea/
+.gradle/
+
+# 자동 생성되는 솔루션·프로젝트 파일
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 빌드 산출물
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# 크래시 리포트
+sysinfo.txt
+crashlytics-build.properties
+
+# 서명 키 — 절대 커밋하지 않는다
+*.keystore
+*.jks
+!keystore.example
+
+# OS
+.DS_Store
+Thumbs.db
